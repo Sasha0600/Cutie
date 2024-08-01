@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Response 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('..images/background3.gif'); /* Change as needed */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .message {
+            font-size: 2.5em;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text outline effect */
+        }
+        .question {
+            font-size: 2em;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text outline effect */
+            margin-top: 50px;
+        }
+        .options {
+            margin-top: 20px;
+        }
+        .options img {
+            max-width: 200px; /* Adjust size as needed */
+            height: auto;
+            margin: 10px;
+            cursor: pointer;
+            border: 5px solid #ffffff; /* White border for images */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow around images */
+        }
+        .button {
+            font-size: 1.5em;
+            color: #ffffff;
+            background-color: #ff69b4; /* Pink background */
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #ff1493; /* Darker pink on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="message">You chose Love Option 2!</p>
+        <img src="images/love2-response.gif" alt="Response Image">
+
+        <!-- New Question and Options -->
+        <p class="question">What’s your favorite way to celebrate special occasions?</p>
+        <div class="options">
+            <img src="images/option5.gif" alt="Option 5" onclick="window.location.href='pages/response5.html'">
+            <img src="images/option6.gif" alt="Option 6" onclick="window.location.href='pages/response6.html'">
+        </div>
+
+        <a href="index.html" class="button">Back to Home</a>
+    </div>
+</body>
+</html>
